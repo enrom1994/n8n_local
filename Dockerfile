@@ -12,3 +12,5 @@ WORKDIR /home/node/.n8n
 
 # Expose default port
 EXPOSE 5678
+
+CMD ["n8n"]
