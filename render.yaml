@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: n8n-local
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: N8N_HOST
+        value: 0.0.0.0
+      - key: N8N_PORT
+        value: 5678
+      - key: N8N_PROTOCOL
+        value: http
+      - key: WEBHOOK_URL
+        value: https://your-subdomain.onrender.com
