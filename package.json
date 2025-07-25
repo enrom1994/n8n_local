@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@tavily/n8n-nodes-tavily": "^0.2.2",
+    "n8n-nodes-aiscraper": "^0.1.6",
+    "n8n-nodes-auto-socials-post": "^1.2.20",
+    "n8n-nodes-browserless": "^1.1.3",
+    "n8n-nodes-data-validation": "^1.0.1",
+    "n8n-nodes-pdf-generation": "^0.1.0",
+    "n8n-nodes-puppeteer": "^1.4.1",
+    "n8n-nodes-python": "^0.1.4",
+    "n8n-nodes-stable-diffusion": "^0.0.1",
+    "n8n-nodes-youtube-transcription-kasha": "^1.0.1",
+    "youtube-transcript": "^1.2.1"
+  }
+}
